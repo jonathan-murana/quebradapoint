@@ -16,7 +16,7 @@
 		03.1.2 Blog Grid
 		03.1.3 Blog Large
 		03.1.4 Blog Detail
- 
+
 	03.3 Default Pages Style
 		03.3.1 404
 		03.3.2 Services
@@ -39,7 +39,7 @@
 	03.6 Shop
 		03.6.1 Shop Grid
 		03.6.2 Shop Detail
- 
+
 04. Sidebar Widget
 	04.1 Widget CATEGORY WIDGET
 	04.2 Widget Latest News
@@ -49,7 +49,7 @@
 	04.7 Widget Intagram Photos
 	04.8 Popular Tags
 	04.9 User Links
- 
+
 05. Footer
     05.1 Footer Widgets
     05.2 CopyRight
@@ -315,7 +315,9 @@ address { font-style: italic; }
     top: 0px;
     width: 100%;
     height: 100%;
-    background-color: rgba(33,47,71,0.30);
+    /*background-color: rgba(33,47,71,0.30);*/
+    background-color: rgba(33,47,71,0.05);
+
 }
 /* Navigation */
 .navbar-sidebar-on .touristpoint-header-menu-wrap {
@@ -391,7 +393,7 @@ address { font-style: italic; }
     color: #ffffff;
     margin: 0px 0px 0px 16px;
 }
-.touristpoint-nav ul > li.sub-menu-icon.foricons > a:after { content: "\f106"; }
+.touristpoint-nav ul > li.sub-menu-fn.foricons > a:after { content: "\f106"; }
 
 /*Aslan*/
 /*Content*/
@@ -1197,7 +1199,7 @@ address { font-style: italic; }
     padding: 0px 0px 13px;
     display: inline-block;
     position: relative;
-    line-height: 1; 
+    line-height: 1;
 }
 .touristpoint-footer-title h2:before {
     content: '';
@@ -1574,7 +1576,7 @@ blockquote:before {
     left: 0px;
     bottom: 0px;
     width: 60px;
-    height: 2px;   
+    height: 2px;
 }
 .touristpoint-section-heading h2:after {
     content: '';
@@ -1583,7 +1585,7 @@ blockquote:before {
     bottom: -1px;
     width: 5px;
     height: 5px;
-    border-radius: 100%;   
+    border-radius: 100%;
 }
 /*Related Blog*/
 .touristpoint-related-blog,.touristpoint-related-blog figure,.touristpoint-related-blog figure a,
@@ -1846,7 +1848,7 @@ blockquote:before {
     left: 0px;
     bottom: 0px;
     width: 60px;
-    height: 2px;   
+    height: 2px;
 }
 .touristpoint-widget-heading h2:after {
     content: '';
@@ -1855,7 +1857,7 @@ blockquote:before {
     bottom: -1px;
     width: 5px;
     height: 5px;
-    border-radius: 100%;   
+    border-radius: 100%;
 }
 /*widget_cetagories*/
 .widget_cetagories ul {
@@ -2357,7 +2359,7 @@ blockquote:before {
 }
 .touristpoint-images-list-layer.slick-slide.slick-current.slick-active > span:before {
     background-color: #ffffff;
-    opacity: 0.4;    
+    opacity: 0.4;
 }
 .touristpoint-images-list-layer span:before {
     content: '';
@@ -2492,7 +2494,7 @@ blockquote:before {
     font-size: 14px;
     font-weight: 300;
     color: #808285;
-    margin: 0px 3px 0px 0px; 
+    margin: 0px 3px 0px 0px;
 }
 .touristpoint-shop-summery p {
     line-height: 26px;
@@ -2521,7 +2523,7 @@ blockquote:before {
 }
 .touristpoint-shop-summery .touristpoint-readmore-btn:hover:before,
 .touristpoint-shop-summery .touristpoint-readmore-btn:hover:after {
-    width: 100%;   
+    width: 100%;
 }
 /* Shop Tabs */
 .touristpoint-shop-tabs {
@@ -2627,7 +2629,7 @@ blockquote:before {
     background: rgb(255,255,255);
     background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(33,47,71,1) 100%);
     background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(33,47,71,1) 100%);
-    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(33,47,71,1) 100%); 
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(33,47,71,1) 100%);
 }
 .touristpoint-shop-grid figure ul li:hover a:before { opacity: 0;}
 .touristpoint-shop-grid figure a:after {
@@ -2681,7 +2683,7 @@ blockquote:before {
     font-size: 14px;
     font-weight: 300;
     color: #808285;
-    margin: 0px 3px 0px 0px; 
+    margin: 0px 3px 0px 0px;
 }
 .touristpoint-shop-grid figure .star-rating {
     right: 6px;
@@ -2733,7 +2735,7 @@ blockquote:before {
     background: rgb(255,255,255);
     background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(33,47,71,1) 100%);
     background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(33,47,71,1) 100%);
-    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(33,47,71,1) 100%); 
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(33,47,71,1) 100%);
 }
 .touristpoint-shop-list figure ul li:hover a:before { opacity: 0;}
 .touristpoint-shop-list figure a:after {
@@ -2788,7 +2790,7 @@ blockquote:before {
     font-size: 14px;
     font-weight: 300;
     color: #808285;
-    margin: 0px 3px 0px 0px; 
+    margin: 0px 3px 0px 0px;
 }
 .touristpoint-shop-list figure .star-rating {
     right: 6px;
@@ -3032,7 +3034,7 @@ blockquote:before {
     font-size: 12px;
     font-weight: 300;
     color: #808285;
-    margin: 0px 6px 0px 0px; 
+    margin: 0px 6px 0px 0px;
 }
 .touristpoint-related-tour figure > span {
     position: absolute;
@@ -3828,7 +3830,7 @@ blockquote:before {
     opacity: 0.5;
     z-index: -1;
     background: rgb(255,255,255); /* Old browsers */
-    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(33,47,71,1) 100%); 
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(33,47,71,1) 100%);
     background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(33,47,71,1) 100%);
     background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(33,47,71,1) 100%);
 }
@@ -4341,7 +4343,7 @@ blockquote:before {
 .touristpoint-priceplan-list ul { margin: 0px;}
 .touristpoint-priceplan-list ul li {
     float: left;
-    list-style: none; 
+    list-style: none;
     width: 100%;
     border-bottom: 1px solid #dddddd;
     padding: 27px 0px 21px;
@@ -4368,4 +4370,3 @@ blockquote:before {
 .datepicker.dropdown-menu { border-top: none;}
 .touristpoint-destination-comment .tooltip-inner,.widget_text .tooltip-inner { background-color: #ffffff; color: #000;}
 .touristpoint-destination-comment .tooltip.top .tooltip-arrow,.widget_text .tooltip.top .tooltip-arrow { border-top-color: #ffffff;}
-
