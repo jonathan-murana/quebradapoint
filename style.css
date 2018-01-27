@@ -2819,10 +2819,18 @@ blockquote:before {
 .touristpoint-shop ul li:hover .touristpoint-readmore-btn:before,.touristpoint-shop ul li:hover .touristpoint-readmore-btn:after {
     width: 100%;
 }
+
+
 /*Tour Detail*/
+
+.adventure-detail-header-img2 {
+    background-image: url("extra-images/tour-sub-header-img2.jpg")!important;
+}
+
 .touristpoint-subheader.touristpoint-left-subheader.touristpoint-tour-subheader {
     background-image: url("extra-images/tour-sub-header-img.jpg")
 }
+
 .touristpoint-tour-subheader .touristpoint-subheader-transparent { opacity: 0.1;}
 .touristpoint-tour-subheader .star-rating {
     margin: 0px 2px 0px 0px;
