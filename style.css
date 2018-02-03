@@ -4378,3 +4378,10 @@ blockquote:before {
 .datepicker.dropdown-menu { border-top: none;}
 .touristpoint-destination-comment .tooltip-inner,.widget_text .tooltip-inner { background-color: #ffffff; color: #000;}
 .touristpoint-destination-comment .tooltip.top .tooltip-arrow,.widget_text .tooltip.top .tooltip-arrow { border-top-color: #ffffff;}
+
+
+
+
+.no-hover {
+    pointer-events: none!important;
+}
